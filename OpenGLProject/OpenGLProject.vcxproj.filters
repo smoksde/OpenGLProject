@@ -16,6 +16,9 @@
     <Filter Include="Ressourcendateien\Shaders">
       <UniqueIdentifier>{d45f4156-4ff2-40c5-98f8-0fc17e52f645}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Ressourcendateien\Textures">
+      <UniqueIdentifier>{933aa117-b893-49f5-a867-ed1ad2e5f214}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\glad.c">
@@ -34,6 +37,15 @@
       <Filter>Quelldateien</Filter>
     </ClCompile>
     <ClCompile Include="VAO.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="stb.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
   </ItemGroup>
@@ -58,5 +70,16 @@
     <ClInclude Include="VAO.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\..\Pictures\pop_cat.png">
+      <Filter>Ressourcendateien\Textures</Filter>
+    </Image>
   </ItemGroup>
 </Project>
