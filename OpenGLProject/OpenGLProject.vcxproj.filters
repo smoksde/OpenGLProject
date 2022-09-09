@@ -81,5 +81,8 @@
     <Image Include="..\..\..\..\Pictures\pop_cat.png">
       <Filter>Ressourcendateien\Textures</Filter>
     </Image>
+    <Image Include="dusty_grey.png">
+      <Filter>Ressourcendateien\Textures</Filter>
+    </Image>
   </ItemGroup>
 </Project>
