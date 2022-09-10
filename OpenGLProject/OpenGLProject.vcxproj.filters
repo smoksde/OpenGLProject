@@ -56,6 +56,12 @@
     <None Include="default.frag">
       <Filter>Ressourcendateien\Shaders</Filter>
     </None>
+    <None Include="light.frag">
+      <Filter>Ressourcendateien\Shaders</Filter>
+    </None>
+    <None Include="light.vert">
+      <Filter>Ressourcendateien\Shaders</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="shaderClass.h">
@@ -82,6 +88,9 @@
       <Filter>Ressourcendateien\Textures</Filter>
     </Image>
     <Image Include="dusty_grey.png">
+      <Filter>Ressourcendateien\Textures</Filter>
+    </Image>
+    <Image Include="pyramid_texture.png">
       <Filter>Ressourcendateien\Textures</Filter>
     </Image>
   </ItemGroup>

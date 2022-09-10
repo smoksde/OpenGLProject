@@ -150,6 +150,8 @@
   <ItemGroup>
     <None Include="default.frag" />
     <None Include="default.vert" />
+    <None Include="light.frag" />
+    <None Include="light.vert" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Camera.h" />
@@ -162,6 +164,7 @@
   <ItemGroup>
     <Image Include="..\..\..\..\Pictures\pop_cat.png" />
     <Image Include="dusty_grey.png" />
+    <Image Include="pyramid_texture.png" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
